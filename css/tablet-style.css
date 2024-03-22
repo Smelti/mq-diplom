@@ -1,0 +1,41 @@
+.header {
+    background: url("../images/banner-bg-tablet.jpg") no-repeat center center #000000;
+    background-size:cover;
+}
+.menu {
+    padding-left: 50px;
+}
+.navigation_list {
+    display: none;
+}
+.burger {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-left: 130px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.burger span {
+    width: 20px;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.burger span:nth-child(1) {
+    transform: translatey(-8px);
+  }
+
+.burger span:nth-child(3) {
+    transform: translatey(8px);
+  }
+.welcome_title {
+    font-size: 40px;
+    line-height: 55px;
+    width: 680px;
+}

@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    background: url("../images/banner-mobile.jpg") no-repeat center center #000000;
+    background-size:cover;
+    min-height: 50vh;
+    min-width: 100vw;
+    flex-direction: column;
+}
+.logo {
+    align-self: center;
+    width: 300px;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 80px;
+}
+.navigation_list {
+    display: none;
+}
+.burger {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-right: 80px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.burger span {
+    width: 20px;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.burger span:nth-child(1) {
+    transform: translatey(-7px);
+  }
+
+.burger span:nth-child(3) {
+    transform: translatey(7px);
+  }
+
+.welcome_title {
+    padding: 0;
+    width: 328px;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
