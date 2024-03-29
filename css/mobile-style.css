@@ -2,19 +2,23 @@
     display: flex;
     background: url("../images/banner-mobile.jpg") no-repeat center center #000000;
     background-size:cover;
-    min-height: 50vh;
+    min-height: 30vh;
     min-width: 100vw;
     flex-direction: column;
 }
 .logo {
     align-self: center;
-    width: 300px;
+    min-width: 300px;
     margin: auto;
     padding-top: 200px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 .navigation_list {
     display: none;
+}
+.burger_place {
+    display: flex;
+    flex-direction: row-reverse;
 }
 .burger {
     display: block;
@@ -50,4 +54,37 @@
     line-height: 36px;
     text-align: center;
     margin-top: 20px;
+}
+
+/*------------------trend-----------------------*/
+
+.trend_news {
+    display: block;
+}
+.page {
+    display: block;
+    margin: 0;
+}
+.news_feed {
+    margin-left: 25px;
+}
+.card_news {
+    flex-direction: column;
+}
+.block_information {
+    margin: 0;
+    padding-right: 50px;
+    width: 50%;
+}
+.block_news {
+    margin: 0;
+}
+.mark_underline:nth-child(n+1) {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.side_type {
+    margin-left: 25px;
+    width: 100vw;
 }
